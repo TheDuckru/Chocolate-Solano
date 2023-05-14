@@ -15,7 +15,7 @@ body{
 
 /* Estilos para el encabezado */
 header {
-  background-color: #333;
+  background-color: #b7ac95de;
   color: #fff;
   padding: 20px;
   display: flex;
@@ -41,10 +41,16 @@ nav a {
 }
 
 nav a:hover {
-  color: #f90;
+  color: rgb(57, 42, 18);
 }
 
 /* Estilos para las secciones */
+section {
+  padding: 50px;
+  background-color: #ffffff4c;
+  box-shadow: 0px 0px 10px rgba(223, 223, 223, 0.274);
+}
+
 section h2 {
   text-align: center;
   font-size: 36px;
@@ -64,6 +70,24 @@ a.pagina-libro {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
-a.pagina-libro:hover {
-  background-color
+.boton-flotante {
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.boton-flotante:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
 }

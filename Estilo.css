@@ -73,10 +73,10 @@ a.pagina-libro {
 .boton-flotante {
   display: inline-block;
   position: fixed;
-  bottom: 40px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
+  bottom: 60px;
+  right: 30px;
+  width: 150px;
+  height: 150px;
   background-image: url(PagiNaSolano/Pics/FS.png);
   background-size: contain;
   background-repeat: no-repeat;

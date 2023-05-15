@@ -13,6 +13,19 @@ body{
     color: #000000;
 }
 
+.contenedor{
+  width: 300px;
+}
+img{ 
+  float: left;
+  margin-right: 10px;
+  height: 300px;
+  width: 300px;
+}
+.incio{
+  overflow: hidden;
+}
+
 /* Estilos para el encabezado */
 header {
   background-color: #b7ac95de;
@@ -47,7 +60,7 @@ nav a:hover {
 /* Estilos para las secciones */
 section {
   padding: 50px;
-  background-color: #ffffff4c;
+  background-color: #ffffff6f;
   box-shadow: 0px 0px 10px rgba(223, 223, 223, 0.274);
 }
 
@@ -70,12 +83,20 @@ a.pagina-libro {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
+.boton-flotante{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  speak-as: none;
+  font-weight: 400px;
+  line-height: 1;
+  
+}
+/*
 .boton-flotante {
   display: inline-block;
   position: fixed;
-  bottom: 60px;
+  bottom: 100px;
   right: 30px;
-  width: 150px;
+  width: 200px;
   height: 150px;
   background-image: url(PagiNaSolano/Pics/FS.png);
   background-size: contain;
@@ -83,9 +104,11 @@ a.pagina-libro {
   background-position: center;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
 }
 
 .boton-flotante:hover {
   background-color: #ffffff00;
   transform: scale(1.1);
 }
+*/
